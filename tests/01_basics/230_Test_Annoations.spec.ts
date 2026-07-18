@@ -11,7 +11,7 @@ test.skip('skipped test', async ({ page }) => {
 });
 
 // Only run this test
-test.only('focused test', async ({ page }) => {
+test('focused test', async ({ page }) => {
     // Only this test runs
 });
 
